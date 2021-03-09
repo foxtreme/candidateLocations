@@ -25,7 +25,7 @@ SECRET_KEY = 'qc&cn@!u9*h*u1wxwos4@-rm&jo^**x+e7b_xyt)1su(8f-oc('
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['foxtreme.pythonanywhere.com']
 
 
 # Application definition

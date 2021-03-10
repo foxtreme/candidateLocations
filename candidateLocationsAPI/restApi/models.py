@@ -20,3 +20,9 @@ class City(models.Model):
 
     def __str__(self):
         return self.name
+
+
+class Economy(models.Model):
+    city = models.ForeignKey(City, on_delete=models.CASCADE)
+    unemployment_rate = models.DecimalField(max_digits=2, decimal_places=2, verbose_name="Unemployment Rate")
+    activities = models.TextField()
